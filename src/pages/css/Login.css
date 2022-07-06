@@ -1,0 +1,123 @@
+body {
+  background-color: #f45b69;
+  font-family: sans-serif;
+}
+
+.login {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(2, 128, 144, 0.2);
+  left: 50%;
+  overflow: hidden;
+  padding: 40px 30px 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  transition: -webkit-transform 300ms , box-shadow 300ms;
+
+  /* transition: -moz-transform 300ms, box-shadow 300ms;
+  transition: transform 300ms, box-shadow 300ms;
+  width: 400px; */
+}
+
+.login:before, .login:after {
+  border-radius: 35%;
+  content: '';
+  height: 600px;
+  position: absolute;
+  width: 600px;
+  z-index: -1;
+}
+
+.login:before {
+  animation: wawes 6s infinite linear;
+  background-color: rgba(69, 105, 144, 0.15);
+  bottom: -130%;
+  left: 40%;
+}
+
+.login:after {
+  animation: wawes 7s infinite;
+  background-color: rgba(2, 128, 144, 0.2);
+  bottom: -125%;
+  left: 35%;
+}
+
+.login > input {
+  background: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 15px -10px;
+  padding: 10px;
+  width: 400px;
+}
+
+.login > button {
+  background-color: #f45b69;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  transition: background-color 300ms;
+  width: 90px;
+}
+
+.login > button:hover {
+  background-color: #f24353;
+}
+
+@keyframes wawes {
+
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wawes {
+
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wawes {
+
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  bottom: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,114 @@
+body {
+
+  /* fallback for old browsers */
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1d2671, #c33764);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.App-logo {
+  width: 300px;
+}
+
+header {
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+}
+
+header > div > img {
+  border-radius: 15px;
+}
+
+.App {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  color: rgb(221, 32, 32);
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: background-color 300ms;
+  width: auto;
+}
+
+.correct {
+  background: rgb(6, 240, 15);
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.wrong {
+  background: red;
+  border: 3px solid red;
+  color: black;
+  text-decoration: solid;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.green-border {
+  border: 1px solid green;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: shake infinite 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes shake {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

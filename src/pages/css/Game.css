@@ -1,0 +1,23 @@
+.awnser-options {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.div-question {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-question-category {
+  background-color: #474fa9;
+  border-radius: 25px;
+  color: white;
+  padding: 20px;
+  text-decoration: solid;
+}
+
+.div-question-category > div {
+  text-decoration: solid;
+}

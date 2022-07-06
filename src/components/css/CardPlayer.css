@@ -1,0 +1,13 @@
+.card-player {
+  align-items: center;
+  background-color: rgb(165, 116, 42);
+  border: solid black 1px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 250px;
+  justify-content: center;
+  margin: 10px;
+  width: 250px;
+}
